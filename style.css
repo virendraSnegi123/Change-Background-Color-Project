@@ -1,7 +1,96 @@
 body {
-    background-color: aqua;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    background: linear-gradient(to bottom, #0178C8 0%, #6BC9EB 80%, #57C3E9 100%);
 }
 
-button {
-    margin-top: 50vh
+
+/* start header section */
+
+.header {
+    display: flex;
+    gap: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin: 0%;
+}
+
+.nav li {
+    margin: 0%;
+    border: green solid;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    background: #077cca;
+}
+
+.nav li:hover {
+    background: #004572;
+}
+
+.nav li a {
+    margin: 0%;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* end header section */
+
+.info_one {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.Mission {
+    width: 48%;
+    border: black solid 2px;
+    padding: 10px;
+    margin: 3% 3% 0% 0%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.info_one .heading {
+    color: black;
+}
+
+.info_one .para {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.info_one {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.Vision {
+    width: 48%;
+    margin: 3% 0% 0% 3%;
+    width: 48%;
+    border: black solid 2px;
+    padding: 10px;
+    margin: 3% 3% 0% 0%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.footer {
+    margin: 2%;
 }
